@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<TargetFramework>netstandard2.1</TargetFramework>
+	</PropertyGroup>
+	<ItemGroup>
+		<PackageReference Include="cbp-extensions" Version="2.1.0" />
+		<PackageReference Include="Xamarin.Forms" Version="5.0.0.2291" />
+		<PackageReference Include="Xamarin.Essentials" Version="1.7.0" />
+		<PackageReference Include="FreshMvvm" Version="4.0.1" />
+		<PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+		<PackageReference Include="Microsoft.AppCenter" Version="4.4.0" />
+		<PackageReference Include="Microsoft.AppCenter.Crashes" Version="4.4.0" />
+		<PackageReference Include="Microsoft.AppCenter.Analytics" Version="4.4.0" />
+	</ItemGroup>
+</Project>
