@@ -14,7 +14,6 @@ namespace Quaestor.Forms.Core.Dashboard.ViewModels
 
         public DashboardViewModel()
         {
-
         }
 
         #endregion

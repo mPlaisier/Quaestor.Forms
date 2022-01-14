@@ -12,22 +12,35 @@
 		<PackageReference Include="Microsoft.AppCenter" Version="4.4.0" />
 		<PackageReference Include="Microsoft.AppCenter.Crashes" Version="4.4.0" />
 		<PackageReference Include="Microsoft.AppCenter.Analytics" Version="4.4.0" />
+		<PackageReference Include="sqlite-net-pcl" Version="1.8.116" />
+		<PackageReference Include="Polly" Version="7.2.2" />
+		<PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
 	</ItemGroup>
 	<ItemGroup>
-	  <None Remove="FreshMvvm\" />
-	  <None Remove="FreshMvvm\BaseViewModels\" />
-	  <None Remove="Dashboard\" />
-	  <None Remove="Dashboard\ViewModels\" />
-	  <None Remove="Dashboard\Constants\" />
-	  <None Remove="Dashboard\Pages\" />
+		<None Remove="FreshMvvm\" />
+		<None Remove="FreshMvvm\BaseViewModels\" />
+		<None Remove="Dashboard\" />
+		<None Remove="Dashboard\ViewModels\" />
+		<None Remove="Dashboard\Constants\" />
+		<None Remove="Dashboard\Pages\" />
+		<None Remove="Database\" />
+		<None Remove="Database\Services\" />
+		<None Remove="Database\Models\" />
+		<None Remove="Database\Models\Interfaces\" />
+		<None Remove="Database\Services\Interfaces\" />
 	</ItemGroup>
 	<ItemGroup>
-	  <Folder Include="FreshMvvm\" />
-	  <Folder Include="FreshMvvm\BaseViewModels\" />
-	  <Folder Include="Dashboard\" />
-	  <Folder Include="Dashboard\ViewModels\" />
-	  <Folder Include="Dashboard\Constants\" />
-	  <Folder Include="Dashboard\Pages\" />
+		<Folder Include="FreshMvvm\" />
+		<Folder Include="FreshMvvm\BaseViewModels\" />
+		<Folder Include="Dashboard\" />
+		<Folder Include="Dashboard\ViewModels\" />
+		<Folder Include="Dashboard\Constants\" />
+		<Folder Include="Dashboard\Pages\" />
+		<Folder Include="Database\" />
+		<Folder Include="Database\Services\" />
+		<Folder Include="Database\Models\" />
+		<Folder Include="Database\Models\Interfaces\" />
+		<Folder Include="Database\Services\Interfaces\" />
 	</ItemGroup>
 	<ProjectExtensions>
 	  <MonoDevelop>

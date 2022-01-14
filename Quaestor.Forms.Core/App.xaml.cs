@@ -1,6 +1,7 @@
 ﻿using FreshMvvm;
 using Quaestor.Forms.Core.Dashboard.Constants;
 using Quaestor.Forms.Core.Dashboard.ViewModels;
+using Quaestor.Forms.Core.Database.Services;
 using Xamarin.Forms;
 
 namespace Quaestor.Forms.Core
@@ -13,14 +14,19 @@ namespace Quaestor.Forms.Core
         {
             InitializeComponent();
 
-
+            InitializeServices();
             InitializeNavigation();
-            //MainPage = new MainPage();
         }
 
         #endregion
 
         #region Private
+
+        void InitializeServices()
+        {
+            //Db
+            FreshIOC.Container.Register<IDatabaseService, LocalDatabase>();
+        }
 
         void InitializeNavigation()
         {
