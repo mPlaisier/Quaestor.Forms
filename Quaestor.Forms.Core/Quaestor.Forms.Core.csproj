@@ -13,4 +13,29 @@
 		<PackageReference Include="Microsoft.AppCenter.Crashes" Version="4.4.0" />
 		<PackageReference Include="Microsoft.AppCenter.Analytics" Version="4.4.0" />
 	</ItemGroup>
+	<ItemGroup>
+	  <None Remove="FreshMvvm\" />
+	  <None Remove="FreshMvvm\BaseViewModels\" />
+	  <None Remove="Dashboard\" />
+	  <None Remove="Dashboard\ViewModels\" />
+	  <None Remove="Dashboard\Constants\" />
+	  <None Remove="Dashboard\Pages\" />
+	</ItemGroup>
+	<ItemGroup>
+	  <Folder Include="FreshMvvm\" />
+	  <Folder Include="FreshMvvm\BaseViewModels\" />
+	  <Folder Include="Dashboard\" />
+	  <Folder Include="Dashboard\ViewModels\" />
+	  <Folder Include="Dashboard\Constants\" />
+	  <Folder Include="Dashboard\Pages\" />
+	</ItemGroup>
+	<ProjectExtensions>
+	  <MonoDevelop>
+	    <Properties>
+	      <Policies>
+	        <DotNetNamingPolicy ResourceNamePolicy="FileFormatDefault" DirectoryNamespaceAssociation="PrefixedHierarchical" />
+	      </Policies>
+	    </Properties>
+	  </MonoDevelop>
+	</ProjectExtensions>
 </Project>

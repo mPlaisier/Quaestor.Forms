@@ -7,8 +7,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Quaestor.Forms.Droid", "Qua
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Quaestor.Forms.iOS", "Quaestor.Forms.iOS\Quaestor.Forms.iOS.csproj", "{AD755FB7-7AE7-4158-9D37-86FC503A8ECE}"
 EndProject
-Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Quaestor.Forms", "Quaestor.Forms\Quaestor.Forms.shproj", "{FFF9DA6F-6EEE-42AD-9494-790403A0965D}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Quaestor.Forms.Core", "Quaestor.Forms.Core\Quaestor.Forms.Core.csproj", "{8D2B638B-E5DF-418C-8291-0527B561E0E4}"
 EndProject
 Global
